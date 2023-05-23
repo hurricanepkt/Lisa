@@ -1,0 +1,16 @@
+/* ./src/styles/index.css */
+@tailwind base;
+
+/* Write your own custom base styles here */
+[v-cloak] {display:none}
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
